@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="/CSS/common.css">
+  <link rel="stylesheet" href="/CSS/we.css">
+  <title>小网站</title>
+  <style>
+    body {
+      background-image: url("/images/bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index1.html">首页</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"
+        data-toggle="dropdown">
+        <span class="navbar-toggler-icon" data-toggle="dropdown"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ranking.html">排行</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="private.html">主页</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="new.html">最新</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">问题</a>
+          </li>
+          <div class="pulldown-box">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-expanded="">
+                退出登录
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">电视</a></li>
+                <li><a class="dropdown-item" href="#">动漫</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="all">
+    <div class="left">
+      <div class="left_box">
+        <form action="">
+          <h1>内容</h1>
+          <input type="text" placeholder="称呼" name="称呼" id="称呼">
+          <input type="text" placeholder="标题" name="标题" id="标题">
+          <input type="text" placeholder="联系方式" name="联系方式" id="联系方式">
+          <input type="email" placeholder="邮箱" name="邮箱" id="邮箱">
+          <input type="text" placeholder="遇到的问题" name="遇到的问题" id="遇到的问题" style="height: 100px;">
+          <button>提交</button>
+        </form>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right_box">
+        <h2>Address</h2>
+        <p>The company name, <br>Lorem ipsum dolor, <br>Glasglow Dr 40 Fe 72 </p>
+        <h2>Addressl</h2>
+        <p>Tel:1356587789 <br>Fax:123-567-446 <br>Email:contact@example.com </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
